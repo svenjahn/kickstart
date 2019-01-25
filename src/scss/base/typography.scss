@@ -1,0 +1,35 @@
+strong {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+a {
+  color: $color-primary;
+}
+
+::-moz-selection {
+  background: $color-primary;
+  color: $color-dark;
+  text-shadow: none;
+}
+
+::selection {
+  background: $color-primary;
+  color: $color-dark;
+  text-shadow: none;
+}

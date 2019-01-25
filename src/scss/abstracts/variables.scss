@@ -1,0 +1,20 @@
+$color-primary: teal;
+$color-dark: black;
+$color-bright: white;
+
+$font-size-mobile: 16px;
+$font-size-tablet: 1.125rem;
+$font-size-desktop: 1.25rem;
+
+$transition-curve: cubic-bezier(0.3, 0, 0.3, 0.9);
+$transition-speed-normal: 400ms;
+
+$breakpoints: (
+  's': (min-width: 480px),
+  'm': (min-width: 760px),
+  'l': (min-width: 1100px),
+  'xl': (min-width: 1290px),
+  'xxl': (min-width: 1600px)
+);
+
+$width-container: 1200px;

@@ -1,0 +1,17 @@
+// Abstracts like mixins and variables
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// @import "vendors";
+@import '../../node_modules/normalize.css/normalize.css';
+
+// Base styles
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/general';
+@import 'base/animations';
+
+// BEM
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/footer';

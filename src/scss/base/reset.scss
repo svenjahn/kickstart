@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-text-size-adjust: none;
+}
+
+main {
+  display: block;
+}

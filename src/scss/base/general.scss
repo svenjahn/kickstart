@@ -1,0 +1,13 @@
+html {
+  background: $color-bright;
+  font-size: $font-size-mobile;
+  color: $color-dark;
+
+  @include breakpoint('m') {
+    font-size: $font-size-tablet;
+  }
+
+  @include breakpoint('xl') {
+    font-size: $font-size-desktop;
+  }
+}
